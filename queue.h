@@ -35,4 +35,6 @@ void proses_transaksi(queue &Q, address &P);
 
 void print_queue(queue Q);
 
+int jumlah_antrian(queue Q);
+
 #endif //STD_1305213031_MOD9_JURNAL_ARN_QUEUE_H

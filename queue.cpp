@@ -62,3 +62,15 @@ void print_queue(queue Q) {
     cout << endl;
   }
 }
+
+int jumlah_antrian(queue Q) {
+  int count = 0;
+  address P = head(Q);
+
+  while (P != nil) {
+    count++;
+    P = next(P);
+  }
+
+  return count;
+}
